@@ -60,3 +60,23 @@
 // console.log(val);
 //----------------------------------------------------------------------------------------
 
+let val;
+
+val = document;
+val = document.all[5];
+val = document.all.length;
+val = document.head;
+val = document.body;
+val = document.doctype;
+val = document.domain;
+val = document.URL;
+
+val = document.forms;
+val = document.forms[0].id;
+val = document.forms[0].method;
+val = document.forms[0].action;
+
+val = document.images;
+val = document.scripts;
+
+console.log(val);
