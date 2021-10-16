@@ -85,13 +85,19 @@ console.log(document.getElementById('task-title'));
 
 //get things from the element
 
-console.log(document.getElementById('task-title').id);
-console.log(document.getElementById('task-title').className);
+const taskTitle = document.getElementById('task-title');
+
+console.log(taskTitle.id);
+console.log(taskTitle.className);
 
 //Styling
-document.getElementById('task-title').style.background = 'black';
-document.getElementById('task-title').style.color = 'white';
-document.getElementById('task-title').style.padding = '5px';
+taskTitle.style.background = 'black';
+taskTitle.style.color = 'white';
+taskTitle.style.padding = '5px';
 
 //document.getElementById('task-title').style.display = 'none';
 
+taskTitle.textContent = 'Task List';
+taskTitle.innerText = 'My Task';
+
+taskTitle.innerHTML = '<span style = "color:red">Task List</span>';
