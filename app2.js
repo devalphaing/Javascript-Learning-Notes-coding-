@@ -60,23 +60,38 @@
 // console.log(val);
 //----------------------------------------------------------------------------------------
 
-let val;
+// let val;
 
-val = document;
-val = document.all[5];
-val = document.all.length;
-val = document.head;
-val = document.body;
-val = document.doctype;
-val = document.domain;
-val = document.URL;
+// val = document;
+// val = document.all[5];
+// val = document.all.length;
+// val = document.head;
+// val = document.body;
+// val = document.doctype;
+// val = document.domain;
+// val = document.URL;
 
-val = document.forms;
-val = document.forms[0].id;
-val = document.forms[0].method;
-val = document.forms[0].action;
+// val = document.forms;
+// val = document.forms[0].id;
+// val = document.forms[0].method;
+// val = document.forms[0].action;
 
-val = document.images;
-val = document.scripts;
+// val = document.images;
+// val = document.scripts;
 
-console.log(val);
+// console.log(val);
+
+console.log(document.getElementById('task-title'));
+
+//get things from the element
+
+console.log(document.getElementById('task-title').id);
+console.log(document.getElementById('task-title').className);
+
+//Styling
+document.getElementById('task-title').style.background = 'black';
+document.getElementById('task-title').style.color = 'white';
+document.getElementById('task-title').style.padding = '5px';
+
+//document.getElementById('task-title').style.display = 'none';
+
