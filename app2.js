@@ -81,23 +81,33 @@
 
 // console.log(val);
 
-console.log(document.getElementById('task-title'));
+// console.log(document.getElementById('task-title'));
 
-//get things from the element
+// //get things from the element
 
-const taskTitle = document.getElementById('task-title');
+// const taskTitle = document.getElementById('task-title');
 
-console.log(taskTitle.id);
-console.log(taskTitle.className);
+// console.log(taskTitle.id);
+// console.log(taskTitle.className);
 
-//Styling
-taskTitle.style.background = 'black';
-taskTitle.style.color = 'white';
-taskTitle.style.padding = '5px';
+// //Styling
+// taskTitle.style.background = 'black';
+// taskTitle.style.color = 'white';
+// taskTitle.style.padding = '5px';
 
-//document.getElementById('task-title').style.display = 'none';
+// //document.getElementById('task-title').style.display = 'none';
 
-taskTitle.textContent = 'Task List';
-taskTitle.innerText = 'My Task';
+// taskTitle.textContent = 'Task List';
+// taskTitle.innerText = 'My Task';
 
-taskTitle.innerHTML = '<span style = "color:red">Task List</span>';
+// taskTitle.innerHTML = '<span style = "color:red">Task List</span>';
+
+// console.log(document.querySelector('h5'));
+
+// document.querySelector('li').style.color = 'blue';
+// document.querySelector('ul li').style.color = 'blue';
+
+// document.querySelector('li:last-child').style.color = 'red';
+// document.querySelector('li:nth-child(3)').style.color = 'purple';
+// document.querySelector('li:nth-child(4)').textContent = 'Hello World';
+// document.querySelector('li:nth-child(odd)').textContent = 'Hello World';
